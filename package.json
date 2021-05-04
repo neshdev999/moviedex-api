@@ -12,6 +12,9 @@
         "url": "git+https://github.com/neshdev999/moviedex-api.git"
     },
     "keywords": [],
+    "engine": {
+        "node": "14.15.5"
+    },
     "author": "",
     "license": "ISC",
     "bugs": {
