@@ -7,7 +7,6 @@ const MDATA = require('./movies-data-small.json');
 const morganSetting = process.env.NODE_ENV === 'production' ? 'tiny' : 'common';
 
 const app = express();
-app.use(morgan('dev'));
 app.use(helmet());
 app.use(cors());
 app.use(morgan(morganSetting));
