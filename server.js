@@ -12,7 +12,7 @@ app.use(cors());
 app.use(morgan(morganSetting));
 
 app.use(function validateBearerToken(req, res, next){
-    const apiToken = process.env.API_NEW_TOKEN;
+    const apiToken = process.env.API_TOKEN;
     const authToken = req.get('Authorization');
 
     debugger
